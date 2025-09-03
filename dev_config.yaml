@@ -1,0 +1,19 @@
+model_name: distilbert-base-uncased
+output_dir: ./results
+
+# Dev smoke test: very small subsets
+train_samples: 64
+eval_samples: 32
+
+# Training
+num_train_epochs: 1
+learning_rate: 2e-5
+per_device_train_batch_size: 4
+per_device_eval_batch_size: 8
+weight_decay: 0.01
+evaluation_strategy: steps
+seed: 42
+
+eval_steps: 10
+logging_steps: 5
+save_strategy: "no"
