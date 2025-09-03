@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# Python cache and logs
+.pytest_cache/
+*.log
+
+# PyTorch / Transformers artifacts
+*.pt
+*.pth
+*.bin
+pytorch_model.bin
+tf_model.h5
+adapter_model.bin
+adapter_config.json
+
+# Model checkpoints / outputs
+results/
+outputs/
+checkpoints/
+best/
+best_model/
+saved_model/
+models/
+
+# Datasets & cache
+.cache/
+cache/
+data/
+dataset/
+*.arrow
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.sqlite3
+logs/
+.wandb/
+mlruns/
