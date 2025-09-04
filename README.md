@@ -92,10 +92,7 @@ Files of interest
 - `requirements.txt` / `dev-requirements.txt` — runtime and dev deps
 - `tests/test_smoke.py` — tiny unit test
 
-Next steps you can pick from
-- Add `config.gtx1060.yaml` with these defaults committed (I can add it).
-- Add a GitHub Actions workflow that installs dev deps and runs `pytest` on push.
-- Add an `accelerate` example and a short guide to launch multi-GPU runs.
+Recommended Next Step:  
 - Integrate PEFT/LoRA for parameter-efficient fine-tuning.
 
 If you want, tell me which next step I should implement and I'll add it now (I can add the tuned config, CI, or accelerate example).
